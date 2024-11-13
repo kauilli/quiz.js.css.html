@@ -1,0 +1,50 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://www.shutterstock.com/image-illustration/quiz-blue-word-text-on-260nw-1368614702.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+}
+
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#quiz-container {
+    margin-top: 20px;
+}
+
+#answers button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#answers button:hover {
+    background-color: #0056b3;
+}
+
+#next-button, #restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
